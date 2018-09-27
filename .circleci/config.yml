@@ -2,6 +2,6 @@ version: 2
 jobs:
   build:
     docker: 
-      image: "circleci/golang:1.8.6-jessie"
+      - image: "circleci/golang:1.8.6-jessie"
     steps:
       - run: exit 0
